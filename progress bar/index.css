@@ -15,15 +15,16 @@ html , body{
     --stage-4-bg:green;
 }
 
-.container{
+.containers{
 width: 70%;
 margin: 5rem auto ;
 }
-.progress-bar{
+.progresses-bar{
 width:100%;
 background:var(--progbar-bg);
  border-radius: .9em ;
  height: 40px;
+ overflow: hidden;
  
 }
 .prog-status{
@@ -45,4 +46,9 @@ background:var(--progbar-bg);
 .stage-4{
     width: var(--stage-4);
     background: var(--stage-4-bg);
+}
+.header{
+    padding-top:2em;   
+    font-family:'Winky'sans-serif;
+    font-weight: 700;
 }
