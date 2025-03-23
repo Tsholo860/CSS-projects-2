@@ -47,8 +47,17 @@ background:var(--progbar-bg);
     width: var(--stage-4);
     background: var(--stage-4-bg);
 }
+
 .header{
     padding-top:2em;   
     font-family:'Winky'sans-serif;
     font-weight: 700;
+    text-align: center;
+   
+}
+.icon{
+    display: inline-block;
+    font-size: 2em;
+    color: #7e35f5;
+    
 }
